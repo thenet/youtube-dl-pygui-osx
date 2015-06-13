@@ -18,10 +18,10 @@ brew install AtomicParsley
 ##Build
 for debug
 ```
-python setup.py py2app
+python setup.py py2app -A
 ./dist/YoutubeM4aDownloader.app/Contents/MacOS/YoutubeM4aDownloader 
 ```
 for release
 ```
-python setup.py py2app -A
+python setup.py py2app
 ```
